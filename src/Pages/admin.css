@@ -1,0 +1,39 @@
+.Users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.admin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Delete {
+    padding: 4px 8px;
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+}
+
+.addhotel {
+    padding: 4px 12px;
+    background-color: rgb(55, 189, 243);
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.addhotel:hover {
+    cursor: pointer;
+    padding: 6px 14px;
+    background-color: rgb(22, 136, 223);
+}
+
+.Delete:hover {
+    background-color: rgb(248, 57, 57);
+    color: white;
+}

@@ -1,0 +1,23 @@
+.Navbar {
+    height: 50px;
+    background-color: #11af63;
+    display: flex;
+    justify-content: center;
+}
+
+.navContainer {
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavButton {
+    margin-left: 20px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    color: #003580;
+}
